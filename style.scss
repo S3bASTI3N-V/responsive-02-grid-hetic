@@ -1,0 +1,11 @@
+$types: alkaliMetal lanthanide nobleGas transitionMetal postTransitionMetal
+  alkalineEarthMetal actinide metalloid otherNonMetal;
+$step: 360deg /
+  length(
+    $types:
+  );
+body {
+  display: grid;
+  grid-template-columns: repeat(autofill, minmax(100px, 1fr));
+  grid-gap: 0.5rem;
+}
